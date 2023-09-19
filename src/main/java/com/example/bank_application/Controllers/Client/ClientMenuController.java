@@ -3,6 +3,7 @@ package com.example.bank_application.Controllers.Client;
 import com.example.bank_application.Models.Model;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -13,6 +14,7 @@ public class ClientMenuController implements Initializable {
     public Button accounts_btn;
     public Button profile_btn;
     public Button logout_btn;
+    public Label report_lbl;
     public Button report_btn;
 
     @Override

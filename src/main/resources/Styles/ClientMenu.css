@@ -2,6 +2,7 @@
 .main_menu_container{
     -fx-background-color: #EEEEEE;
     -fx-alignment: center;
+    -fx-padding: 0 10 0 10;
 }
 
 .left_container{
@@ -67,19 +68,20 @@
 
 /* Report Suggestion/Bug */
 .report_container{
-    -fx-background-color: #EEEEEE;
+    -fx-background-color: #EEFFEE;
     -fx-background-radius: 10;
     -fx-alignment: center;
     -fx-spacing: 10;
     -fx-padding: 10, 0, 10, 0;
 }
 
-.report_container Text{
+.report_container #report_lbl{
     -fx-font-weight: bold;
     -fx-fill: #132A13;
 }
 
 .report_container Label{
+    -fx-font-size: 0.9em;
     -fx-text-alignment: center;
     -fx-wrap-text: true;
 }
